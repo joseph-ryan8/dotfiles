@@ -17,3 +17,6 @@ autoload -Uz compinit && compinit
 
 # p10k config
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
